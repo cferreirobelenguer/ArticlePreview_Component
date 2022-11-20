@@ -3,7 +3,7 @@
 Url del challenge: https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT
 
 ## Tecnologías:
-### React
+### React hooks
 ### Bootstrap 5
 ### css
 ### SASS
