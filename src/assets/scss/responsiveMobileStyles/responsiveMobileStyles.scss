@@ -1,0 +1,96 @@
+
+//Mobile styles
+
+@import '../font/font.scss';
+@import '../function/function.scss';
+@import '../variables/variables.scss';
+
+
+
+@include responsiveMobile{
+    .card_containerDesktop{
+        display:none;
+    }
+
+    .card_container{
+        display:block;
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        padding:0;
+        margin:0;
+    
+        .card_text{
+            display:flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            padding: $veinte;
+            
+        }
+        
+    }
+    #imageCard{
+        object-fit: cover;
+        width: 300vw;
+        height: 300px;
+    }
+    .card_title{
+        @include cardTtitle;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 50px;
+        padding-bottom: 10px;
+    }
+    .card_subtitle{
+        @include cardSubtitle;
+        padding-top:0;
+        padding-left:10px;
+        padding-right:50px;
+        padding-bottom: 10px;
+    }
+    .card_autoButton{
+        border-style:solid;
+        border-color: transparent;
+        padding-left: 100px;
+    }
+    .share{
+        color: white;
+        font-family: $fontFamily;
+        font-weight: 500;
+        font-size: $fontSize;
+        
+    }
+    .facebook{
+        padding-left: 20px;
+    }
+    .twitter{
+        padding-left: 20px;
+    }
+    .pinterest{
+        padding-left: 20px;
+    }
+    .card_share{
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        justify-content: flex-start;
+        background-color: #49556A;
+    }
+    .buttonShare{
+        background-color: #AEB8C2;
+        border-radius: 20px;
+        border-style: solid;
+        border-color: #AEB8C2;
+        margin-left: 60px;
+    }
+    .buttonShareMobile{
+        background-color: #AEB8C2;
+        border-radius: 20px;
+        border-style: solid;
+        border-color: #AEB8C2;
+        margin-left: 150px;
+        visibility:visible;
+    }
+    
+}

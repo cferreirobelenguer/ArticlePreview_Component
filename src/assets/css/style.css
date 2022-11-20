@@ -1,0 +1,314 @@
+@font-face {
+  font-family: "manrope";
+  src: url("../fonts/manrope.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "manrope";
+  src: url("../fonts/manrope.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "manrope";
+  src: url("../fonts/manrope.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@media (max-width: 2000px) {
+  .card_container {
+    display: none;
+  }
+  .card_containerDesktop {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  .card_containerDesktop .card_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 150px;
+  }
+  .card_title {
+    text-align: left;
+    font-family: "manrope";
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 70px;
+    padding-bottom: 10px;
+  }
+  .card_subtitle {
+    text-align: left;
+    font-family: "manrope";
+    font-weight: 500;
+    font-size: 13px;
+    padding-top: 0;
+    padding-left: 10px;
+    padding-right: 250px;
+    padding-bottom: 10px;
+  }
+  .card_autor {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .card_autor #imagenAutor {
+    border-radius: 20px;
+  }
+  .card_autoButton {
+    padding-left: 350px;
+    text-align: center;
+  }
+  .share {
+    color: white;
+  }
+  .facebook {
+    padding-left: 20px;
+  }
+  .twitter {
+    padding-left: 20px;
+  }
+  .pinterest {
+    padding-left: 20px;
+  }
+  #imageCard {
+    object-fit: fill;
+    width: 600px;
+    height: 450px;
+  }
+  .buttonShare {
+    background-color: #AEB8C2;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #AEB8C2;
+    margin-left: 50px;
+  }
+  .buttonShareMobile {
+    visibility: hidden;
+  }
+  .card_shareDesktop {
+    opacity: 0.9;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    position: absolute;
+    border-radius: 8px 8px 8px 8px;
+    width: 200px;
+    top: 22vw;
+    left: 78vw;
+    background: #49556A;
+    border-color: #49556A;
+    padding-right: 10px;
+  }
+  .card_shareDesktop:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 20px;
+    border-top: 20px solid #49556A;
+    border-top-color: inherit;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+  }
+}
+@font-face {
+  font-family: "manrope";
+  src: url("../fonts/manrope.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@media (max-width: 950px) {
+  .card_containerDesktop {
+    display: none;
+  }
+  .card_container {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  .card_container .card_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+  }
+  #imageCard {
+    object-fit: cover;
+    width: 400vw;
+    height: 400px;
+  }
+  .card_title {
+    text-align: left;
+    font-family: "manrope";
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 70px;
+    padding-bottom: 10px;
+  }
+  .card_subtitle {
+    text-align: left;
+    font-family: "manrope";
+    font-weight: 500;
+    font-size: 13px;
+    padding-top: 0;
+    padding-left: 10px;
+    padding-right: 150px;
+    padding-bottom: 10px;
+  }
+  .card_autoButton {
+    border-style: solid;
+    border-color: transparent;
+    padding-left: 300px;
+  }
+  .share {
+    color: white;
+    font-family: "manrope";
+    font-weight: 500;
+    font-size: 13px;
+  }
+  .facebook {
+    padding-left: 20px;
+  }
+  .twitter {
+    padding-left: 20px;
+  }
+  .pinterest {
+    padding-left: 20px;
+  }
+  .card_share {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: flex-start;
+    background-color: #49556A;
+  }
+  .buttonShare {
+    background-color: #AEB8C2;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #AEB8C2;
+    margin-left: 100px;
+  }
+  .buttonShareMobile {
+    background-color: #AEB8C2;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #AEB8C2;
+    margin-left: 390px;
+    visibility: visible;
+  }
+}
+@font-face {
+  font-family: "manrope";
+  src: url("../fonts/manrope.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@media (max-width: 650px) {
+  .card_containerDesktop {
+    display: none;
+  }
+  .card_container {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  .card_container .card_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+  }
+  #imageCard {
+    object-fit: cover;
+    width: 300vw;
+    height: 300px;
+  }
+  .card_title {
+    text-align: left;
+    font-family: "manrope";
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+  }
+  .card_subtitle {
+    text-align: left;
+    font-family: "manrope";
+    font-weight: 500;
+    font-size: 13px;
+    padding-top: 0;
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+  }
+  .card_autoButton {
+    border-style: solid;
+    border-color: transparent;
+    padding-left: 100px;
+  }
+  .share {
+    color: white;
+    font-family: "manrope";
+    font-weight: 500;
+    font-size: 13px;
+  }
+  .facebook {
+    padding-left: 20px;
+  }
+  .twitter {
+    padding-left: 20px;
+  }
+  .pinterest {
+    padding-left: 20px;
+  }
+  .card_share {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: flex-start;
+    background-color: #49556A;
+  }
+  .buttonShare {
+    background-color: #AEB8C2;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #AEB8C2;
+    margin-left: 60px;
+  }
+  .buttonShareMobile {
+    background-color: #AEB8C2;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #AEB8C2;
+    margin-left: 150px;
+    visibility: visible;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

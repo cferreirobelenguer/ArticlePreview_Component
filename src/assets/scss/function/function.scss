@@ -1,0 +1,26 @@
+
+//General card styles
+@mixin cardTtitle{
+    text-align: left;
+    font-family: $fontFamily;
+    font-size: $fontSize;
+    font-weight: bold;
+}
+@mixin cardSubtitle{
+    text-align: left;
+    font-family: $fontFamily;
+    font-weight: 500;
+    font-size: $fontSize;
+}
+//mediaqueries
+@mixin desktop{
+    @media (max-width: 2000px) { @content; }
+}
+//mediaqueries
+@mixin responsive{
+    @media (max-width: 950px) { @content; }
+}
+//mediaqueries
+@mixin responsiveMobile{
+    @media (max-width: 650px) { @content; }
+}
